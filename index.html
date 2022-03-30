@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+
+<title>YouTube</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://illiweb.com/rs3/25/frm/mentions/tooltipster.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/youtube/t.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="https://illiweb.com/rs3/25/frm/mentions/tooltipster.css">
+
+<link rel="stylesheet" type="text/css" href="/youtube/style.css">
+
+</head>
+ 
+<body>
+
+<section class="video-player">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h1>YouTube Playlist</h1>
+                <p>Scrollez et cliquez sur n'importe quelle vidéo sur le coté droit pour commencer la lecture.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="ypt_wrapper">
+                    <div class="video" id="video">
+                        <div class="text-center" id="player"><h1>Sélectionnez une playlist dans la liste ci-dessous</h1></div>
+                    </div>
+                    <ul id="ypt_thumbs"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="playlist row">
+            <div class="col text-center mb-5">
+			    <button data-ypt-index="0" type="button" class="btn btn-outline-dark">Lire les vidéos</button><br />
+				<button type="button" id="Shuffle" class="btn btn-outline-dark">Mélanger l'ordre de lecture</button>
+                <div><input type="text" placeholder="Placer l'id une playlist du style PLV3wS-PEwpOtVQU..." onfocus="this.value=''" id="pl"/>
+                <input type="button" value="Envoyer" onclick="fn1()" id="btn1"/></div>
+		        <p>Choisissez une playlist ci-dessous et cliquez sur le bouton "Envoyer":</p>
+                <div datalist="PLrktm-9QRD5yHRwdSB-gC_Gk3jDbznKak">Playlist Musiques Années 80 à 2016 !!!: <i>PLrktm-9QRD5yHRwdSB-gC_Gk3jDbznKak</i></div>
+                <div datalist="PLwWVKBMpGSCCJBdT-XGShxqr5SFFEK-qV">Scorpions Greatest Hits Full Album: <i>PLwWVKBMpGSCCJBdT-XGShxqr5SFFEK-qV</i></div>
+                <div datalist="PLJH3YxN1A0ZZSRSJsQest7HmkOkbPgi0v">Jean-Jacques Goldman - Official Music Video Playlist: <i>PLJH3YxN1A0ZZSRSJsQest7HmkOkbPgi0v</i></div>
+				<div datalist="PL4hyqxN3umpYkkEEbBJCQD9vy4JLSE3-k">Calvin Harris - This Is What You Came For (Official Video) ft. Rihanna: <i>PL4hyqxN3umpYkkEEbBJCQD9vy4JLSE3-k</i></div>
+				<div datalist="PLmXxqSJJq-yXrCPGIT2gn8b34JjOrl4Xf">80s Music Hits | Best 80s Music Playlist: <i>PLmXxqSJJq-yXrCPGIT2gn8b34JjOrl4Xf</i></div>
+				<div datalist="PLA1D6023F6FF2684B">Nirvana - Smells Like Teen Spirit (Official Music Video): <i>PLA1D6023F6FF2684B</i></div>
+				<div datalist="PLE6rhv8iI_vJ48CbdqZqnr-6LT4A_Lxtq">90's Music Playlist: <i>PLE6rhv8iI_vJ48CbdqZqnr-6LT4A_Lxtq</i></div>
+				<div datalist="PLBB9F6B341EBE788E">The Cranberries - Linger: <i>PLBB9F6B341EBE788E</i></div>
+				<div datalist="PL4471CADD811E98AC">Dire Straits Playlist: <i>PL4471CADD811E98AC</i></div>
+			</div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript" src="/youtube/youtube.js"></script>
+
+
+</body>
+</html>
