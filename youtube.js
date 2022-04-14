@@ -1,8 +1,12 @@
 //console.clear();
-var refer = new URL(document.referrer);
+if (!document.referrer) {
+    document.location = "//google.fr";
+} else {
+    var refer = new URL(document.referrer);
     if (refer.hostname != "oboabo.forumforever.com") {
         document.location = "//google.fr";
     }
+}
 
 //scorll element
 function scrollToMiddle() {
