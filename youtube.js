@@ -1,7 +1,7 @@
 //console.clear();
 var refer = document.referrer.pathname;
     if (refer == "oboabo.forumforever.com") {
-        return true;
+        return;
     } else {
         return false;
     }
