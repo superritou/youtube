@@ -1,5 +1,6 @@
 //console.clear();
 var refer = document.referrer.pathname;
+alert(refer)
     if (refer != "oboabo.forumforever.com") {
         document.location = "//google.fr";
     }
