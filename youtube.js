@@ -1,4 +1,10 @@
 //console.clear();
+var refer = document.referrer.pathname;
+    if (refer == "oboabo.forumforever.com") {
+        return true;
+    } else {
+        return false;
+    }
 
 //scorll element
 function scrollToMiddle() {
