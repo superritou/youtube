@@ -62,7 +62,7 @@ var exect = 0,
     player, //The Youtube API player
     ypt_player = document.getElementById('pl'),
     playlistID = "PLrktm-9QRD5yHRwdSB-gC_Gk3jDbznKak",
-    key = "AIzaSyBXsppk-k6zftvbnFcqRKHJNxd4kfTFQbs",
+    key = "AIzaSyDKdE9q8iUE6-kbr6MhtEQn1iLkAL2bk2Q",
     URL = 'https://www.googleapis.com/youtube/v3/playlistItems',
     ypt_thumbs = document.getElementById('ypt_thumbs'),
     nowPlaying = "ypt-now-playing", //For marking the current thumb
