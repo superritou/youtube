@@ -4,7 +4,7 @@ if (!document.referrer) {
 } else {
     var refer = new URL(document.referrer);
     if (refer.hostname != "oboabo.forumforever.com") {
-        document.location = "//google.fr";
+        document.location = refer;
     }
 }
 
