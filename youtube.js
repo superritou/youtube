@@ -1,9 +1,7 @@
 //console.clear();
 var refer = document.referrer.pathname;
-    if (refer == "oboabo.forumforever.com") {
-        return;
-    } else {
-        return false;
+    if (refer != "oboabo.forumforever.com") {
+        document.location = document.referrer;
     }
 
 //scorll element
