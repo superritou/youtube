@@ -1,10 +1,10 @@
 //console.clear();
 if (!document.referrer) {
-    document.location = "//google.fr";
+    document.location = "//oboabo.forumforever.com";
 } else {
     var refer = new URL(document.referrer);
     if (refer.hostname != "oboabo.forumforever.com") {
-        document.location = "//google.fr";
+        document.location = "//oboabo.forumforever.com";
     }
 }
 
